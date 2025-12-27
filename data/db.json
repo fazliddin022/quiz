@@ -1,0 +1,104 @@
+{
+	"categories": [
+		{
+			"id": "cat-js",
+			"name": "JavaScript",
+			"description": "JavaScript asoslari va advanced savollar"
+		},
+		{
+			"id": "cat-html",
+			"name": "HTML & CSS",
+			"description": "Frontend asoslari"
+		},
+		{
+			"id": "3a07",
+			"name": "Hkmskcm"
+		}
+	],
+	"quizzes": [
+		{
+			"id": "quiz-js-1",
+			"title": "JavaScript Basics",
+			"description": "JS boshlang‘ich test",
+			"categoryId": "cat-js",
+			"timeLimit": 600,
+			"questionCount": 5,
+			"createdAt": "2025-01-01",
+			"isActive": true
+		}
+	],
+	"questions": [
+		{
+			"id": "q-js-1",
+			"quizId": "quiz-js-1",
+			"categoryId": "cat-js",
+			"question": "JavaScript nima?",
+			"options": [
+				"Dasturlash tili",
+				"Brauzer",
+				"Framework",
+				"Ma'lumotlar bazasi"
+			],
+			"correctAnswer": 0,
+			"difficulty": "easy",
+			"points": 1
+		},
+		{
+			"id": "q-js-2",
+			"quizId": "quiz-js-1",
+			"categoryId": "cat-js",
+			"question": "JavaScript qayerda ishlaydi?",
+			"options": [
+				"Faqat serverda",
+				"Faqat brauzerda",
+				"Brauzer va serverda",
+				"Faqat mobil qurilmalarda"
+			],
+			"correctAnswer": 2,
+			"difficulty": "easy",
+			"points": 1
+		},
+		{
+			"id": "q-js-3",
+			"quizId": "quiz-js-1",
+			"categoryId": "cat-js",
+			"question": "Quyidagilardan qaysi biri JavaScript data type emas?",
+			"options": ["String", "Boolean", "Number", "Character"],
+			"correctAnswer": 3,
+			"difficulty": "medium",
+			"points": 2
+		},
+		{
+			"id": "q-js-4",
+			"quizId": "quiz-js-1",
+			"categoryId": "cat-js",
+			"question": "`const` bilan e’lon qilingan o‘zgaruvchini qayta o‘zgartirish mumkinmi?",
+			"options": [
+				"Ha, har doim",
+				"Yo‘q, umuman mumkin emas",
+				"Faqat object ichidagi qiymatlarini",
+				"Faqat number bo‘lsa"
+			],
+			"correctAnswer": 2,
+			"difficulty": "medium",
+			"points": 2
+		},
+		{
+			"id": "q-js-5",
+			"quizId": "quiz-js-1",
+			"categoryId": "cat-js",
+			"question": "`===` operatori nimani tekshiradi?",
+			"options": [
+				"Faqat qiymatni",
+				"Faqat tipni",
+				"Qiymat va tipni",
+				"Faqat stringlarni"
+			],
+			"correctAnswer": 2,
+			"difficulty": "easy",
+			"points": 1
+		}
+	],
+	"results": [],
+	"users": []
+}
