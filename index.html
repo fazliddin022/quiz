@@ -8,7 +8,73 @@
     <title>Quiz</title>
 </head>
 <body>
-    
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <a href="./pages/login.html" class="btn btn-primary">Login <i class="bi bi-box-arrow-in-right"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div id="carouselExample" class="carousel slide" style="height: 300px; background-color: aqua;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus error officia. Provident quos nulla perferendis dolore beatae assumenda cum, doloremque cupiditate temporibus, id quia dolor ad consequuntur nesciunt magnam.
+                    </div>
+                    <div class="carousel-item">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus error officia. Provident quos nulla perferendis dolore beatae assumenda cum, doloremque cupiditate temporibus, id quia dolor ad consequuntur nesciunt magnam.
+                    </div>
+                    <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="quiz container my-5">
+            <h2>Test savollar</h2>
+            <div class="quizBox border rounded-4 p-3 mx-auto col-12 col-md-6 col-lg-4">
+                <div class="d-flex justify-content-between ">
+                    <span class="questionNum">1/10</span>
+                    <p class="score"></p>
+                </div>
+                <h3 class="questionText"></h3>
+                <ul class="list-group"></ul>
+                <button class="nextBtn btn btn-primary mt-3 d-none">Next</button>
+            </div>
+            <div class="resultBox text-center border p-2 rounded-5 my-5 mx-auto col-12 col-md-6 col-lg-4 d-none">
+                <h3 class="resultText">Natija</h3>
+                <p class="finalScore"></p>
+                <button onclick="location.reload()" class="btn btn-success">Qaytadan yechish</button>
+            </div>
+        </section>
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
